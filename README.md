@@ -3,7 +3,7 @@
 ## Description
 Automated Synchronized High-Stability Electronic Rudder, (ASHER) is an Automated Rudder System designed for creating automatic rudder movement using a PID controller while an RC aircraft is flying. 
 
-* The original project's goal was to actually test the system in an RC aircraft, however, we did not recieve any of our part to build it in time so we had to create all the systems ourselves with makeshift parts found around our engineering shop.
+* The original project's goal was to actually test the system in an RC aircraft, however, we did not recieve any of our part to build it in time so we had to create all the systems ourselves with makeshift parts found around our engineering shop. *
 
 ASHER is a system that consists of two distinct sections with different purposes. The first section is responsible for digitalizing the output of an inclinometer using an infrared sensor array connected to a microcontroller. The second section is the PID (Proportional-Integral-Derivative) system, which utilizes the input from the sensor system and controls a servo motor that adjusts the rudder. ASHER is designed to maintain stability and control in a certain application.
 
