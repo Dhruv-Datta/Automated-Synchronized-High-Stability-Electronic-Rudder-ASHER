@@ -23,14 +23,16 @@ The PID controller calculates the control signal by executing the calculatePID()
 
 To use the ASHER system, follow these steps:
 
-Set up the hardware components, including the infrared sensor array, the inclinometer with the black ball, the microcontroller, and the servo motor connected to the rudder.
+* Set up the hardware components, including the infrared sensor array, the inclinometer with the black ball, the microcontroller, and the servo motor connected to the rudder.
 
-Connect the infrared sensor array to the microcontroller's input pins, making sure the electrical connections are correct.
+* Connect the infrared sensor array to the microcontroller's input pins, making sure the electrical connections are correct.
 
-Upload the provided code to the microcontroller using the Arduino IDE or compatible software.
+* Upload the provided code to the microcontroller using the Arduino IDE or compatible software.
 
-Open the Serial monitor to observe the position values printed by the system.
+* Connect external rudder to ASHER.
 
-Verify that the ASHER system is functioning properly by observing the servo motor's movement and the stability of the position values reported in the Serial monitor.
+* Open the Serial monitor to observe the position values printed by the system.
+
+* Verify that the ASHER system is functioning properly by observing the servo motor's movement and the stability of the position values reported in the Serial monitor.
 
 Note: Adjust the PID controller parameters (Kp, Ki, and Kd) in the PIDSys constructor according to the specific requirements and characteristics of your application.
