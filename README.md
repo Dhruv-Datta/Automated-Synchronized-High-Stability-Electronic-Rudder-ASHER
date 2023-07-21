@@ -29,8 +29,6 @@ To use the ASHER system, follow these steps:
 
 * Upload the provided code to the microcontroller using the Arduino IDE or compatible software.
 
-* Connect external rudder to ASHER.
-
 * Open the Serial monitor to observe the position values printed by the system.
 
 * Verify that the ASHER system is functioning properly by observing the servo motor's movement and the stability of the position values reported in the Serial monitor.
